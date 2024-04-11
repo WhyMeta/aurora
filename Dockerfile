@@ -2,7 +2,7 @@
 FROM golang:1.21 AS builder
 
 # 禁用 CGO
-ENV CGO_ENABLED=0
+ENV CGO_ENABLED=1
 
 # 设置工作目录
 WORKDIR /app
